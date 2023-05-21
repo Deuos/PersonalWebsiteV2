@@ -6,9 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-        fontSize: {
-          'text-Custom': '2.5rem',
-        },
+      fontSize: {
+        'Custom': '2.5rem',
+      },
     },
   },
   plugins: [],

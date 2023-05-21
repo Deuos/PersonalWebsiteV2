@@ -12,7 +12,7 @@ const Home = () => {
             </div>
             <div className='container-md relative mx-auto m3 border space-y-0 mt-10'>
                 <p className='text-white text-xs align-top text-opacity-20 ml-28'>&lt;title&gt;</p>
-                <p className='text-white text-4xl align-top text-opacity-100 ml-28'>KP
+                <p className='text-white text-Custom align-top text-opacity-100 ml-28'>KP
                     <span className='inline-block w-3 h-3 bg-white rounded-full ml-1'></span>
                 </p>
                 <p className='text-white text-xs align-top text-opacity-20 ml-28'>&lt;/title&gt;</p>
