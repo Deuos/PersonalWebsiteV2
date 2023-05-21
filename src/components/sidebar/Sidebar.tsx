@@ -1,46 +1,41 @@
-import React, {useState} from "react";
-import { FaHome, FaUser, FaInfoCircle } from 'react-icons/fa';
-import './Sidebar.css'
+import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import './Sidebar.css';
+import userIcon from '../../icons/sidebar/user.png'
+// import { FaFolder, FaUser } from 'react-icons/fa';
+// import { HiMail } from 'react-icons/hi'
 
 const Sidebar = () => {
-  const [expanded, setExpanded] = React.useState(false);
-
-  const handleMouseEnter = () => {
-    setExpanded(true);
-  };
-
-  const handleMouseLeave = () => {
-    setExpanded(false);
-  };
-
   return (
-    <div
-      className={`sidebar ${expanded ? 'expanded' : ''}`}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <ul className="sidebar-menu">
-        <li className="sidebar-menu-item">
-          <a href="/" className="sidebar-link">
-            <FaHome className="sidebar-icon" />
-            Home
-          </a>
+    <div className="nagivation">
+      <ul>
+        <li>
+          <Link className="ahref" to="/AboutMe">
+            <span className="icons"><img src={userIcon} /></span>
+            <span className="title">About me</span>
+          </Link>
         </li>
-        <li className="sidebar-menu-item">
-          <a href="/profile" className="sidebar-link">
-            <FaUser className="sidebar-icon" />
-            Profile
-          </a>
+        <li>
+          <Link className="ahref" to="/Projects">
+            <span className="icons"></span>
+            <span className="title">Projects</span>
+          </Link>
         </li>
-        <li className="sidebar-menu-item">
-          <a href="/about" className="sidebar-link">
-            <FaInfoCircle className="sidebar-icon" />
-            About
-          </a>
+        <li>
+          <Link className="ahref" to="/ContactMe">
+            <span className="icons"></span>
+            <span className="title">Contact Me</span>
+          </Link>
         </li>
       </ul>
     </div>
+
   );
 };
-  
-  export default Sidebar;
+
+export default Sidebar;
+
+{/* <a href="#project">
+              <span className="icons"></span>
+              <span className="title">Projects</span>
+            </a> */}
