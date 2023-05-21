@@ -1,11 +1,10 @@
 import React from 'react';
-import Sidebar from '../sidebar/Sidebar';
 
 
 const Home = () => {
     return (
-        <div>
-            <h1>Welcome to Home</h1>
+        <div className="container-md mx-auto bg-gray-200 border p-8 m-10">
+            <p>&lt;html mode="Dark"&gt;</p>
         </div>
     )
 }

@@ -40,7 +40,7 @@
 
 .nagivation ul li:hover {
 
-  background-color: rgb(30, 156, 156);
+  background-color: rgb(68, 74, 74);
 
 }
 
@@ -56,7 +56,7 @@
 .nagivation ul li .ahref .icons {
 
   position: relative;
-  font-size: 23px;
+  font-size: 28px;
   display: block;
   min-width: 60px;
   height: 30%;
