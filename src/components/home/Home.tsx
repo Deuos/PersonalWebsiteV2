@@ -1,5 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import NavBar from '../sidebar/Sidebar';
 
 
 const Home = () => {
@@ -12,9 +13,15 @@ const Home = () => {
             </div>
             <div className='container-md relative mx-auto m3 space-y-0 mt-10'>
                 <p className='text-white font-light text-xs align-top text-opacity-20 ml-28'>&lt;title&gt;</p>
-                <p className='text-white text-4.5xl align-top font-black ml-40'>KP
-                    <span className='inline-block w-3 h-3 bg-white rounded-full ml-1'></span>
-                </p>
+
+                <div className='flex'>
+                    <p className='text-white text-4.5xl align-top font-black ml-40'>KP
+                        <span className='inline-block w-3 h-3 bg-white rounded-full ml-1'></span>
+                    </p>
+                    <div className='flex-grow flex justify-end mr-40 '>
+                        <NavBar />
+                    </div>
+                </div>
                 <p className='text-white font-light text-xs align-top text-opacity-20 ml-28'>&lt;/title&gt;</p>
             </div>
             <div className='container-md relative mx-auto m3 space-y-0 mt-20'>
