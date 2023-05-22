@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
 import { Route, Routes, } from "react-router-dom";
-
 //sidebar
 //import NavBar from './components/sidebar/Sidebar';
+//Routes
+//cursor
 //Routes
 import Home from './components/home/Home';
 import AboutMe from './components/aboutme/AboutMe';

@@ -12,7 +12,7 @@ const Home = () => {
                 <p className='text-white font-light text-xs align-top text-opacity-20 ml-14'>&lt;body class="Welcome Page"&gt;</p>
             </div>
             <div className='container-md relative mx-auto m3 space-y-0 mt-10'>
-                <p className='text-white font-light text-xs align-top text-opacity-20 ml-28'>&lt;title&gt;</p>
+                <p className='text-white font-light text-xs align-top text-opacity-20 ml-28'>&lt;navbar&gt;</p>
 
                 <div className='flex'>
                     <p className='text-white text-4.5xl align-top font-black ml-40'>KP
@@ -22,7 +22,7 @@ const Home = () => {
                         <NavBar />
                     </div>
                 </div>
-                <p className='text-white font-light text-xs align-top text-opacity-20 ml-28'>&lt;/title&gt;</p>
+                <p className='text-white font-light text-xs align-top text-opacity-20 ml-28'>&lt;/navbar&gt;</p>
             </div>
             <div className='container-md relative mx-auto m3 space-y-0 mt-20'>
                 <p className='text-white font-light text-xs align-top text-opacity-20 ml-40'>&lt;h1&gt;</p>
