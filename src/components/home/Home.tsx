@@ -7,15 +7,43 @@ const Home = () => {
         //This is the text for top left
         <div>
             <div className="container-md relative mx-auto m-3 space-y-3">
-                <p className='text-white text-xs align-top text-opacity-20 ml-5'>&lt;html mode="Dark"&gt;</p>
-                <p className='text-white text-xs align-top text-opacity-20 ml-14'>&lt;body class="Welcome Page"&gt;</p>
+                <p className='text-white font-light text-xs align-top text-opacity-20 ml-5'>&lt;html mode="Dark"&gt;</p>
+                <p className='text-white font-light text-xs align-top text-opacity-20 ml-14'>&lt;body class="Welcome Page"&gt;</p>
             </div>
-            <div className='container-md relative mx-auto m3 border space-y-0 mt-10'>
-                <p className='text-white text-xs align-top text-opacity-20 ml-28'>&lt;title&gt;</p>
-                <p className='text-white text-Custom align-top text-opacity-100 ml-28'>KP
+            <div className='container-md relative mx-auto m3 space-y-0 mt-10'>
+                <p className='text-white font-light text-xs align-top text-opacity-20 ml-28'>&lt;title&gt;</p>
+                <p className='text-white text-4.5xl align-top font-black ml-40'>KP
                     <span className='inline-block w-3 h-3 bg-white rounded-full ml-1'></span>
                 </p>
-                <p className='text-white text-xs align-top text-opacity-20 ml-28'>&lt;/title&gt;</p>
+                <p className='text-white font-light text-xs align-top text-opacity-20 ml-28'>&lt;/title&gt;</p>
+            </div>
+            <div className='container-md relative mx-auto m3 space-y-0 mt-20'>
+                <p className='text-white font-light text-xs align-top text-opacity-20 ml-40'>&lt;h1&gt;</p>
+
+                <div className='text-white text-center font-bold text-4xl my-10'>
+                    <TypeAnimation
+                        sequence={[
+                            'Hi, my name is Kush, and I am a broke',
+                            30,
+                            'Hi, my name is Kush, and I am a College Student',
+                            1000,
+                            'Hi, my name is Kush, and I am also a Web Developer',
+                            1000,
+                        ]}
+                        speed={15}
+                        repeat={0}
+                        cursor={false}
+                    />
+                </div>
+                <p className='text-white font-light text-xs align-top text-opacity-20 ml-40'>&lt;/h1&gt;</p>
+            </div>
+            <div className='container-md relative border mx-auto m3 space-y-0 mt-16'>
+                <p className='text-white font-light text-xs align-top text-opacity-20 ml-56'>&lt;p&gt;</p>
+                <div>
+                    <p>I like building Websites and Solving Problems.</p>
+                    <p>View my Projects, Resume, Contact Me, or send me an email at Email@gmail.com.</p>
+                </div>
+                <p className='text-white font-light text-xs align-top text-opacity-20 ml-56'>&lt;/p&gt;</p>
             </div>
         </div>
     )

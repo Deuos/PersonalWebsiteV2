@@ -7,7 +7,10 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        'Custom': '2.5rem',
+        '4.5xl': '2.5rem',
+      },
+      fontFamily: {
+        raleway: ['Raleway', 'sans-serif'],
       },
     },
   },
