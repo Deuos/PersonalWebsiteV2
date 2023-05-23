@@ -10,7 +10,13 @@ module.exports = {
         '4.5xl': '2.5rem',
       },
       fontFamily: {
-        raleway: ['Raleway', 'sans-serif'],
+        "raleway": ['Raleway', 'sans-serif'],
+      },
+      width: {
+        'title': "56.25rem"
+      },
+      height: {
+        'screensize': 'calc(100vh - 3px)'
       },
     },
   },
