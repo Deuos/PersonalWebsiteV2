@@ -10,13 +10,13 @@ const NavBar = () => {
         ['Projects', '/Projects'],
         ['Contact Me', '/ContactMe'],
       ].map(([title, url]) => (
-        <Link to={url} className=" text-white text-lg py-5 hover:border-b hover:border-white">
+        <Link to={url} className="relative after:absolute after:bg-gray-200 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:translate-y-1 after:opacity-0 hover:after:translate-y-0 hover:after:opacity-100 after:transition after:ease-in-out after:duration-200">
           {title}</Link>
       ))}
     </nav>
   );
 }
-
+//<div class="relative after:absolute after:bg-gray-200 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:translate-y-1 after:opacity-0 hover:after:translate-y-0 hover:after:opacity-100 after:transition after:ease-in-out after:duration-200">Hover over me</div>
 export default NavBar;
 
 // import React from 'react';

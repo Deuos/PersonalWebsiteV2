@@ -13,7 +13,8 @@ module.exports = {
         "raleway": ['Raleway', 'sans-serif'],
       },
       width: {
-        'title': "56.25rem"
+        'title': "56.25rem",
+        'navbarWidth': '75rem'
       },
       height: {
         'screensize': 'calc(100vh - 3px)'
