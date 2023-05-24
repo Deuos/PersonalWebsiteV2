@@ -19,8 +19,39 @@ module.exports = {
       height: {
         'screensize': 'calc(100vh - 3px)'
       },
+      keyframes: {
+        swing: {
+          '15%': { transform: 'translateX(5px)' },
+          '30%': { transform: 'translateX(-5px)' },
+          '50%': { transform: 'translateX(3px)' },
+          '80%': { transform: 'translateX(2px)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        text: {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center',
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center',
+          },
+        },
+        background: {
+          '0%, 100%': {
+            'background-position': '0% 50%',
+          },
+          '50%': {
+            'background-position': '100% 50%',
+          },
+        },
+      },
+    },
+    animation: {
+      swing: 'swing 1s ease 1',
+      text: 'text 5s ease infinite',
+      background: 'background 5s ease'
     },
   },
   plugins: [],
-}
-
+};

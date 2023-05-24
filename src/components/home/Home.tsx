@@ -15,9 +15,13 @@ const Home = () => {
                 <div className='flex justify-center'>
                     <div className="flex w-navbarWidth items-center justify-between">
                         <Link to="/">
-                            <p className="text-white text-4.5xl font-black">KP
-                                <span className='inline-block w-3 h-3 bg-white rounded-full ml-1'></span>
+                            <p className="text-4.5xl font-black animate-text">
+                                <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">KP</span>
+                                <span className="inline-block w-3 h-3 rounded-full ml-1 animate-background bg-gradient-to-r from-teal-500 via-purple-50 to-orange-500"></span>
                             </p>
+                            {/* <p className="text-4.5xl font-black animate-text bg-gradient-to-r from-teal-500 via-purple-50 bg-clip-text text-transparent">KP
+                                <span className='inline-block w-3 h-3 rounded-full ml-1 animate-background bg-gradient-to-r to-orange-500'></span>
+                            </p> */}
                         </Link>
                         <NavBar />
                     </div>
@@ -50,7 +54,12 @@ const Home = () => {
                     <div className="w-title text-left text-2xl font-semibold">
                         <p>I like building Websites and Solving Problems.</p>
                         <br></br>
-                        <p>View my Projects, Resume, Contact Me, or send me an email at KuPatel2021@gmail.com.</p>
+                        <p>View my Projects, Resume, Contact Me, or send me an email at
+                            <p className="w-fit hover:animate-swing">
+                                <a href='mailto:KuPatel2021@gmail.com'>                                KuPatel2021@gmail.com.
+                                </a>
+                            </p>
+                        </p>
                     </div>
                 </div>
                 <p className='text-white font-light text-xs align-top text-opacity-20 ml-72'>&lt;p&gt;</p>
@@ -58,9 +67,11 @@ const Home = () => {
                 <div className='flex flex-col items-center mt-20'>
                     <br></br>
                     <div className="w-title">
-                        <div className='w-fit text-2xl font-semibold'>
-                            <div className="relative after:absolute after:bg-gray-200 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">See more about me</div>
-                        </div>
+                        <Link to="/AboutMe">
+                            <div className='w-fit text-2xl font-semibold'>
+                                <div className="relative after:absolute after:bg-gray-200 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">See more about me</div>
+                            </div>
+                        </Link>
                     </div>
                     <br></br>
                 </div>
