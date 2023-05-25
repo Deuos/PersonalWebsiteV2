@@ -2,7 +2,8 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import NavBar from '../sidebar/Sidebar';
 import { Link } from 'react-router-dom';
-
+import CircleIcon from '@mui/icons-material/Circle';
+import Icon from '@mui/material/Icon';
 const Home = () => {
     return (
         <div className="flex flex-col justify-center min-h-screen">
@@ -17,7 +18,7 @@ const Home = () => {
                         <Link to="/">
                             <p className="text-4.5xl font-black animate-text">
                                 <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">KP</span>
-                                <span className="inline-block w-3 h-3 rounded-full ml-1 animate-background bg-gradient-to-r from-teal-500 via-purple-50 to-orange-500"></span>
+                                <span className="inline-block w-3 h-3 rounded-full ml-1 animate-background bg-gradient-to-r from-orange-500 to-orange-500"></span>
                             </p>
                             {/* <p className="text-4.5xl font-black animate-text bg-gradient-to-r from-teal-500 via-purple-50 bg-clip-text text-transparent">KP
                                 <span className='inline-block w-3 h-3 rounded-full ml-1 animate-background bg-gradient-to-r to-orange-500'></span>

@@ -38,19 +38,19 @@ module.exports = {
           },
         },
         background: {
-          '0%, 100%': {
-            'background-position': '0% 50%',
+          '100%': {
+            'background-position': 'left center',
           },
-          '50%': {
-            'background-position': '100% 50%',
-          },
+          // '50%': {
+          //   'background-position': 'right center',
+          // },
         },
       },
     },
     animation: {
       swing: 'swing 1s ease 1',
       text: 'text 5s ease infinite',
-      background: 'background 5s ease'
+      background: 'background 5s ease infinite'
     },
   },
   plugins: [],
