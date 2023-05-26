@@ -6,7 +6,7 @@ import CircleIcon from '@mui/icons-material/Circle';
 import Icon from '@mui/material/Icon';
 const Home = () => {
     return (
-        <div className="flex flex-col justify-center min-h-screen">
+        <div className="flex flex-col my-3 h-screensize">
             <div className="mx-2 space-y-4">
                 <p className="text-white font-light text-xs align-top text-opacity-20 ml-5">&lt;html mode="Dark"&gt;</p>
                 <p className="text-white font-light text-xs align-top text-opacity-20 ml-14">&lt;body class="Welcome Page"&gt;</p>
@@ -55,9 +55,15 @@ const Home = () => {
                     <div className="w-title text-left text-2xl font-semibold">
                         <p>I like building Websites and Solving Problems.</p>
                         <br></br>
-                        <p>View my Projects, Resume, Contact Me, or send me an email at
+                        <p>View my&nbsp;
+                            <Link to="/">Projects</Link>
+                            ,&nbsp; 
+                            <Link to="/">Resume</Link>
+                            ,&nbsp; 
+                            <Link to="/">Contact Me</Link>
+                            ,&nbsp; or send me an email at
                             <p className="w-fit hover:animate-swing">
-                                <a href='mailto:KuPatel2021@gmail.com'>                                KuPatel2021@gmail.com.
+                                <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
                                 </a>
                             </p>
                         </p>

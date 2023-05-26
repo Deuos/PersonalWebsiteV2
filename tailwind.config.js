@@ -17,7 +17,7 @@ module.exports = {
         'navbarWidth': '75rem'
       },
       height: {
-        'screensize': 'calc(100vh - 3px)'
+        'screensize': '99vh'
       },
       keyframes: {
         swing: {
@@ -37,20 +37,11 @@ module.exports = {
             'background-position': 'right center',
           },
         },
-        background: {
-          '100%': {
-            'background-position': 'left center',
-          },
-          // '50%': {
-          //   'background-position': 'right center',
-          // },
-        },
       },
     },
     animation: {
       swing: 'swing 1s ease 1',
       text: 'text 5s ease infinite',
-      background: 'background 5s ease infinite'
     },
   },
   plugins: [],
