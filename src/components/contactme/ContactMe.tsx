@@ -16,7 +16,7 @@ const ContactMe = () => {
                         <Link to="/">
                             <p className="text-4.5xl font-black animate-text">
                                 <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">Contact Me</span>
-                                <span className="inline-block w-3 h-3 rounded-full ml-1 animate-background bg-gradient-to-r from-orange-500 to-orange-500"></span>
+
                             </p>
                             {/* <p className="text-4.5xl font-black animate-text bg-gradient-to-r from-teal-500 via-purple-50 bg-clip-text text-transparent">KP
                                 <span className='inline-block w-3 h-3 rounded-full ml-1 animate-background bg-gradient-to-r to-orange-500'></span>
