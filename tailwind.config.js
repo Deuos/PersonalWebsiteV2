@@ -14,10 +14,13 @@ module.exports = {
       },
       width: {
         'title': "56.25rem",
-        'navbarWidth': '75rem'
+        'navbarWidth': '75rem',
+        'contactButton': '40.625rem',
+        'contactButtonWidth': '10.938rem'
       },
       height: {
-        'screensize': '99vh'
+        'screensize': '99vh',
+        'contactButtonHeight' : '3rem',
       },
       keyframes: {
         swing: {

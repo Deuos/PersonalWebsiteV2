@@ -18,14 +18,37 @@ const ContactMe = () => {
                                 <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">Contact Me</span>
 
                             </p>
-                            {/* <p className="text-4.5xl font-black animate-text bg-gradient-to-r from-teal-500 via-purple-50 bg-clip-text text-transparent">KP
-                                <span className='inline-block w-3 h-3 rounded-full ml-1 animate-background bg-gradient-to-r to-orange-500'></span>
-                            </p> */}
                         </Link>
                         <NavBar />
                     </div>
                 </div>
+                <div className='flex text-white justify-center'>
+                    <div className='w-navbarWidth'>
+                        <p className='flex mt-10 font-bold text-3xl'>
+                            Email me at&nbsp;
+                            <div className="hover:animate-swing">
+                                <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
+                                </a>
+                            </div>
+                        </p>
+                        <p className='mt-10 font-bold text-3xl'>
+                            or
+                        </p>
+                        <div className='flex w-contactButton mt-10 justify-start'>
+                            <button className="bg-transparent mr-10 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white w-contactButtonWidth h-contactButtonHeight py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                                Button
+                            </button>
+                            <button className="bg-transparent mr-10 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white w-contactButtonWidth h-contactButtonHeight py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                                Button
+                            </button>
+                            <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white w-contactButtonWidth h-contactButtonHeight py-2 px-4 border-4 border-blue-500 hover:border-transparent rounded">
+                                Button
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
     )
 }
