@@ -35,20 +35,34 @@ const ContactMe = () => {
                             or
                         </p>
                         <div className='flex w-contactButton mt-10 justify-start'>
-                            <button className="bg-transparent mr-10 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white w-contactButtonWidth h-contactButtonHeight py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                                Button
+                            <div className="relative group mr-10 w-contactButtonWidth h-contactButtonHeight">
+                                <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-customButton blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                                <button className="relative px-6 py-3 w-contactButtonWidth h-contactButtonHeight bg-background-black text-white rounded-customButton">Github</button>
+                            </div>
+                            <div className="relative group mr-10 w-contactButtonWidth h-contactButtonHeight">
+                                <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-customButton blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                                <button className="relative px-6 py-3 w-contactButtonWidth h-contactButtonHeight bg-background-black text-white rounded-customButton">LinkedIn</button>
+                            </div>
+                            <div className="relative group w-contactButtonWidth h-contactButtonHeight">
+                                <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-customButton blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                                <button className="relative px-6 py-3 w-contactButtonWidth h-contactButtonHeight bg-background-black text-white rounded-customButton">Resume</button>
+                            </div>
+                            {/* <button className="bg-transparent mr-10 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white w-contactButtonWidth h-contactButtonHeight py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                                Github
                             </button>
                             <button className="bg-transparent mr-10 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white w-contactButtonWidth h-contactButtonHeight py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                                Button
+                                LinkedIn
                             </button>
                             <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white w-contactButtonWidth h-contactButtonHeight py-2 px-4 border-4 border-blue-500 hover:border-transparent rounded">
-                                Button
-                            </button>
+                                Resume
+                            </button> */}
                         </div>
                     </div>
                 </div>
             </div>
-
+            <div className="fixed z-0 leading-tight bottom-0 left-0 font-black opacity-7 text-10xl h-backgroundTitle text-white">
+                Contact Me
+            </div>
         </div>
     )
 }

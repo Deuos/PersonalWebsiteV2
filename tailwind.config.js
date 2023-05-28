@@ -6,8 +6,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'background-black':'#01060B'
+      },
+      borderRadius:{
+        'customButton':'1rem'
+      },
       fontSize: {
         '4.5xl': '2.5rem',
+        '10xl':'13.75rem',
+      },
+      opacity: {
+        '7':'0.07'
       },
       fontFamily: {
         "raleway": ['Raleway', 'sans-serif'],
@@ -21,6 +31,7 @@ module.exports = {
       height: {
         'screensize': '99vh',
         'contactButtonHeight' : '3rem',
+        'backgroundTitle': '14.5rem'
       },
       keyframes: {
         swing: {
