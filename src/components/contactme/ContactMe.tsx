@@ -1,7 +1,9 @@
 import React from 'react';
 import NavBar from '../sidebar/Sidebar';
 import { Link } from 'react-router-dom';
-
+import { BsGithub } from 'react-icons/bs'
+import { IoLogoLinkedin } from 'react-icons/io'
+import { HiDocumentText } from 'react-icons/hi'
 const ContactMe = () => {
     return (
         <div className="flex flex-col my-3 h-screensize">
@@ -35,7 +37,34 @@ const ContactMe = () => {
                             or
                         </p>
                         <div className='flex w-contactButton mt-10 justify-start'>
-                            <div className="relative group mr-10 w-contactButtonWidth h-contactButtonHeight">
+
+                            <button className="flex bg-transparent text-black hover:border mr-10 w-contactButtonWidth h-contactButtonHeight items-center justify-center py-2 px-4 bg-white rounded-customButton">
+                                <Link className="flex items-center justify-center" target="_blank" rel="noopener noreferrer" to="https://github.com/Deuos">
+                                    <div className='font-black text-xl mr-2'>Github</div>
+                                    <div ><BsGithub size={30} /></div>
+                                </Link>
+                            </button>
+                            <button className="flex bg-transparent text-black mr-10 w-contactButtonWidth h-contactButtonHeight py-2 px-4 items-center justify-center bg-white rounded-customButton">
+                                <Link className="flex items-center justify-center" target="_blank" rel="noopener noreferrer" to="https://www.linkedin.com/in/kushpateldev/">
+                                    <div className=' font-black text-xl mr-1'>LinkedIn</div>
+                                    <div ><IoLogoLinkedin size={40} /></div>
+                                </Link>
+
+                            </button>
+                            <button className="flex bg-transparent text-black mr-10 w-contactButtonWidth h-contactButtonHeight items-center justify-center py-2 px-4 bg-white rounded-customButton">
+                                <div className=' font-black text-xl hover:text-white mr-2'>Resume</div>
+                                <div ><HiDocumentText size={30} /></div>
+                            </button>
+
+                            {/* <div className='w-contactButton animate-text h-contactButtonHeight bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500'>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="bg-clip-content w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25" />
+                                    </svg>
+
+                                </div>
+                            </div> */}
+                            {/* <div className="relative group mr-10 w-contactButtonWidth h-contactButtonHeight">
                                 <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-customButton blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
                                 <button className="relative px-6 py-3 w-contactButtonWidth h-contactButtonHeight bg-background-black text-white rounded-customButton">Github</button>
                             </div>
@@ -46,16 +75,7 @@ const ContactMe = () => {
                             <div className="relative group w-contactButtonWidth h-contactButtonHeight">
                                 <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-customButton blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
                                 <button className="relative px-6 py-3 w-contactButtonWidth h-contactButtonHeight bg-background-black text-white rounded-customButton">Resume</button>
-                            </div>
-                            {/* <button className="bg-transparent mr-10 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white w-contactButtonWidth h-contactButtonHeight py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                                Github
-                            </button>
-                            <button className="bg-transparent mr-10 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white w-contactButtonWidth h-contactButtonHeight py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                                LinkedIn
-                            </button>
-                            <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white w-contactButtonWidth h-contactButtonHeight py-2 px-4 border-4 border-blue-500 hover:border-transparent rounded">
-                                Resume
-                            </button> */}
+                            </div> */}
                         </div>
                     </div>
                 </div>

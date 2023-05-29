@@ -2,8 +2,7 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import NavBar from '../sidebar/Sidebar';
 import { Link } from 'react-router-dom';
-import CircleIcon from '@mui/icons-material/Circle';
-import Icon from '@mui/material/Icon';
+
 const Home = () => {
     return (
         <div className="flex flex-col my-3 h-screensize">
@@ -60,7 +59,7 @@ const Home = () => {
                             <Link to="/">Resume</Link>
                             ,&nbsp;
                             <Link to="/">Contact Me</Link>
-                            ,&nbsp; or send me an email at
+                            ,&nbsp;or send me an email at
                             <p className="w-fit hover:animate-swing">
                                 <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
                                 </a>
