@@ -24,6 +24,38 @@ const AboutMe = () => {
                         <NavBar />
                     </div>
                 </div>
+                <div className='flex text-white justify-center'>
+                    <div className='w-navbarWidth'>
+                        <p className='flex mt-10 font-bold text-3xl'>
+                            Work Experience.
+                        </p>
+                        <p className='flex mt-10 font text-2xl'>
+                            None, looking for a internship. Contact me at&nbsp;
+                            <div className="hover:animate-swing">
+                                <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
+                                </a>
+                            </div>
+                        </p>
+                        <p className='flex mt-10 font-bold text-3xl'>
+                            Education.
+                        </p>
+                        <div className='mt-10 flex justify-between font text-2xl'>
+                            <p>Eastern Connecticut State University</p>
+                            <p>2022-2024</p>
+                        </div>
+                        <div className='mt-10 flex justify-between font text-2xl'>
+                            <p>Wentworth Institute of Technology</p>
+                            <p>2021-2022</p>
+                        </div>
+                        <div className='mt-10 flex justify-between font text-2xl'>
+                            <p>Ellington High School</p>
+                            <p>2017-2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="fixed z-0 leading-tight bottom-0 left-0 font-black opacity-7 text-10xl h-backgroundTitle text-white">
+                About Me
             </div>
         </div>
     )
