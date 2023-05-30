@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
-        <div className="flex border flex-col my-3 h-screensize">
+        <div className="flex flex-col my-3 h-screensize">
             <div className="mx-2 space-y-4">
                 <p className="text-white font-light text-xs align-top text-opacity-20 ml-5">&nbsp;</p>
                 <p className="text-white font-light text-xs align-top text-opacity-20 ml-14">&nbsp;</p>
@@ -25,8 +25,8 @@ const Projects = () => {
                         <NavBar />
                     </div>
                 </div>
-                <div className='flex flex-col text-white border justify-center'>
-                    <button className='border'>Github</button>
+                <div className='flex flex-col text-white items-center'>
+                    <button className='border w-fit'>Github</button>
 
                 </div>
                 <div className="flex flex-wrap justify-center">
@@ -49,7 +49,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    {/* Card 2 */}
+                    {/* Card 2
                     <div className="flex justify-center border">
                         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
@@ -69,7 +69,7 @@ const Projects = () => {
                     </div>
 
                     {/* Card 3 */}
-                    <div className="flex justify-center border">
+                    {/* <div className="flex justify-center border">
                         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="/docs/images/blog/image-3.jpg" alt="" />
@@ -85,11 +85,11 @@ const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="flex flex-wrap justify-center">
                         {/* Card 1 */}
-                        <div className="flex justify-center border">
+                        {/* <div className="flex justify-center border">
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
                                     <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
@@ -105,10 +105,10 @@ const Projects = () => {
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* Card 2 */}
-                        <div className="flex justify-center border">
+                        {/* <div className="flex justify-center border">
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
                                     <img className="rounded-t-lg" src="/docs/images/blog/image-2.jpg" alt="" />
@@ -124,10 +124,10 @@ const Projects = () => {
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* Card 3 */}
-                        <div className="flex justify-center border">
+                        {/* <div className="flex justify-center border">
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
                                     <img className="rounded-t-lg" src="/docs/images/blog/image-3.jpg" alt="" />
@@ -143,11 +143,10 @@ const Projects = () => {
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* Add more cards here */}
                     </div>
-                    {/* Add more cards here */}
                 </div>
             </div>
         </div>
