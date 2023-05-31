@@ -7,10 +7,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'background-black':'#01060B'
+        'background-black':'#01060B',
+        'text-whitecream': '#F3F7F0',
+        'card-background': '#0B161B',
       },
       borderRadius:{
-        'customButton':'1rem'
+        'customButton':'1rem',
+        'projectCardRadius': '0.938rem',
+        'projectCardRadiusInside': '1.25rem'
       },
       fontSize: {
         '4.5xl': '2.5rem',
@@ -26,12 +30,18 @@ module.exports = {
         'title': "56.25rem",
         'navbarWidth': '75rem',
         'contactButton': '40.625rem',
-        'contactButtonWidth': '10.938rem'
+        'contactButtonWidth': '10.938rem',
+        '75':'4.688rem',
+        'projectCardWidth':'24rem',
+        'projectCardWidthInside': '22.438rem',
       },
       height: {
         'screensize': '99vh',
         'contactButtonHeight' : '3rem',
-        'backgroundTitle': '14.5rem'
+        'backgroundTitle': '14.5rem',
+        '50':'3.125rem',
+        'projectCardHeight': '25.563rem',
+        'projectCardHeightInside': '24rem',
       },
       keyframes: {
         swing: {
