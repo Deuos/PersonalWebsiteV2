@@ -49,8 +49,24 @@ const Projects = () => {
                         </div>
                         <div className='flex items-center justify-center w-projectCardWidth h-projectCardHeight bg-text-whitecream rounded-projectCardRadius'>
                             <div className='relative w-projectCardWidthInside h-projectCardHeightInside bg-background-black rounded-projectCardRadius'>
-                                <div className='absolute w-75 h-50 top-0 right-0 bg-text-whitecream rounded-bl-projectCardRadiusInside'>
-
+                                <div className='absolute w-75 h-50 top-0 right-0 bg-text-whitecream rounded-bl-projectCardRadiusInside flex justify-center items-center'>
+                                    <div className='text-black font-medium text-2xl'>
+                                        <p>001</p>
+                                    </div>
+                                </div>
+                                <div className='text-white inline-flex ml-5 mt-4 font-bold text-2xl'>Example Title</div>
+                                <div className='text-white mx-5 mt-6 inline-flex font-medium text-lg border'>Here are the biggest enterprises in the United States of America
+                                    Here are the biggest enterprises in the United States of America</div>
+                                <div className='flex text-white border'>
+                                    <div className=''>
+                                Test 1
+                                    </div>
+                                    <div className=''>
+                                Test 1
+                                    </div>
+                                    <div className=''>
+                                Test 1
+                                    </div>
                                 </div>
                             </div>
                         </div>
