@@ -7,21 +7,26 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'background-black':'#01060B',
+        'background-black': '#01060B',
         'text-whitecream': '#F3F7F0',
         'card-background': '#0B161B',
+        'Light': '#F3F7F0',
+        'Light-accent': '#48484B',
+        'Main': '#799BA4',
+        'Dark': '#5B6875',
+        'Dark-accent': '#01060B'
       },
-      borderRadius:{
-        'customButton':'1rem',
+      borderRadius: {
+        'customButton': '1rem',
         'projectCardRadius': '0.938rem',
         'projectCardRadiusInside': '1.25rem'
       },
       fontSize: {
         '4.5xl': '2.5rem',
-        '10xl':'13.75rem',
+        '10xl': '13.75rem',
       },
       opacity: {
-        '7':'0.07'
+        '7': '0.07'
       },
       fontFamily: {
         "raleway": ['Raleway', 'sans-serif'],
@@ -31,16 +36,16 @@ module.exports = {
         'navbarWidth': '75rem',
         'contactButton': '40.625rem',
         'contactButtonWidth': '10.938rem',
-        '75':'4.688rem',
-        '110':'6.875rem',
-        'projectCardWidth':'24rem',
+        '75': '4.688rem',
+        '110': '6.875rem',
+        'projectCardWidth': '24rem',
         'projectCardWidthInside': '22.438rem',
       },
       height: {
         'screensize': '99vh',
-        'contactButtonHeight' : '3rem',
+        'contactButtonHeight': '3rem',
         'backgroundTitle': '14.5rem',
-        '50':'3.125rem',
+        '50': '3.125rem',
         '40': '2.5rem',
         'projectCardHeight': '25.563rem',
         'projectCardHeightInside': '24rem',

@@ -74,13 +74,14 @@ const Projects = () => {
                                 </button>
                             </div>
                         </div>
-                        <Cards 
-                        number='001'
-                        title='Example Test'
-                        description='Here are the biggest enterprises in the United States of America Here are the biggest enterprises in the United States of America'
-                        lang1="Typescript"
-                        lang2="test"
-                        lang3="tests"
+                        <Cards
+                            number='001'
+                            title='Example Test'
+                            description='Here are the biggest enterprises in the United States of America Here are the biggest enterprises in the United States of America'
+                            lang1="#Typescript"
+                            lang2="#HTML/CSS"
+                            lang3="#TailwindCSS"
+                            link='https://github.com/Deuos/Library-Management-System'
                         />
                     </div>
 
