@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../sidebar/Sidebar';
 import { Link } from 'react-router-dom';
+import Cards from './Cards';
 
 const Projects = () => {
     return (
@@ -73,6 +74,14 @@ const Projects = () => {
                                 </button>
                             </div>
                         </div>
+                        <Cards 
+                        number='001'
+                        title='Example Test'
+                        description='Here are the biggest enterprises in the United States of America Here are the biggest enterprises in the United States of America'
+                        lang1="Typescript"
+                        lang2="test"
+                        lang3="tests"
+                        />
                     </div>
 
                     {/* Card 2 Test */}
