@@ -55,19 +55,22 @@ const Projects = () => {
                                     </div>
                                 </div>
                                 <div className='text-white inline-flex ml-5 mt-4 font-bold text-2xl'>Example Title</div>
-                                <div className='text-white mx-5 mt-6 inline-flex font-medium text-lg border'>Here are the biggest enterprises in the United States of America
+                                <div className='text-white ml-5 mr-8 mt-6 inline-flex font-medium text-lg'>Here are the biggest enterprises in the United States of America
                                     Here are the biggest enterprises in the United States of America</div>
-                                <div className='flex text-white border'>
+                                <div className='absolute inline-flex w-80 mr-5 justify-between bottom-28 left-5 text-white'>
                                     <div className=''>
-                                Test 1
+                                        Test 1
                                     </div>
                                     <div className=''>
-                                Test 1
+                                        Test 1
                                     </div>
                                     <div className=''>
-                                Test 1
+                                        Test 1
                                     </div>
                                 </div>
+                                <button className='absolute bottom-10 left-5 border w-110 h-40 justify-center rounded-projectCardRadiusInside'>
+                                    more
+                                </button>
                             </div>
                         </div>
                     </div>
