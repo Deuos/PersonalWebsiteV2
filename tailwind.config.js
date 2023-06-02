@@ -13,7 +13,7 @@ module.exports = {
         'Light': '#F3F7F0',
         'Light-accent': '#48484B',
         'Main': '#799BA4',
-        'Dark': '#5B6875',
+        'Dark': '#181818',
         'Dark-accent': '#01060B'
       },
       borderRadius: {
@@ -36,7 +36,7 @@ module.exports = {
         'navbarWidth': '75rem',
         'contactButton': '40.625rem',
         'contactButtonWidth': '10.938rem',
-        '75': '4.688rem',
+        '85': '5.313rem',
         '110': '6.875rem',
         'projectCardWidth': '24rem',
         'projectCardWidthInside': '22.438rem',
@@ -45,7 +45,7 @@ module.exports = {
         'screensize': '99vh',
         'contactButtonHeight': '3rem',
         'backgroundTitle': '14.5rem',
-        '50': '3.125rem',
+        '60': '3.75rem',
         '40': '2.5rem',
         'projectCardHeight': '25.563rem',
         'projectCardHeightInside': '24rem',
