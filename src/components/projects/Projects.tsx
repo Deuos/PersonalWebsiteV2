@@ -27,167 +27,54 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='flex flex-col text-white items-center'>
-                    <button className='border w-fit'>Github</button>
+                    <button className='border mt-10 mb-14 w-fit'>Github</button>
 
                 </div>
-                <div className="flex flex-wrap justify-center">
+                <div className="flex flex-wrap p-4 space-x-6 justify-center">
                     {/* Card 1 */}
-                    <div className="flex justify-center border">
-                        <div className="max-w-sm rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                            <a href="#">
-                                <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
-                            </a>
-                            <div className="p-5">
-                                <a href="#">
-                                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Example Title</h5>
-                                </a>
-                                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                                <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                    Read more
-                                    <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                </a>
-                            </div>
-                        </div>
-                        <div className='flex items-center justify-center w-projectCardWidth h-projectCardHeight bg-text-whitecream rounded-projectCardRadius'>
-                            <div className='relative w-projectCardWidthInside h-projectCardHeightInside bg-background-black rounded-projectCardRadius'>
-                                <div className='absolute w-75 h-50 top-0 right-0 bg-text-whitecream rounded-bl-projectCardRadiusInside flex justify-center items-center'>
-                                    <div className='text-black font-medium text-2xl'>
-                                        <p>001</p>
-                                    </div>
-                                </div>
-                                <div className='text-white inline-flex ml-5 mt-4 font-bold text-2xl'>Example Title</div>
-                                <div className='text-white ml-5 mr-8 mt-6 inline-flex font-medium text-lg'>Here are the biggest enterprises in the United States of America
-                                    Here are the biggest enterprises in the United States of America</div>
-                                <div className='absolute inline-flex w-80 mr-5 justify-between bottom-28 left-5 text-white'>
-                                    <div className=''>
-                                        Test 1
-                                    </div>
-                                    <div className=''>
-                                        Test 1
-                                    </div>
-                                    <div className=''>
-                                        Test 1
-                                    </div>
-                                </div>
-                                <button className='absolute bottom-10 left-5 border w-110 h-40 justify-center rounded-projectCardRadiusInside'>
-                                    more
-                                </button>
-                            </div>
-                        </div>
-                        <Cards
-                            number='001'
-                            title='Example Test'
-                            description='Here are the biggest enterprises in the United States of America Here are the biggest enterprises in the United States of America'
-                            lang1="#Typescript"
-                            lang2="#HTML/CSS"
-                            lang3="#TailwindCSS"
-                            link='https://github.com/Deuos/Library-Management-System'
-                        />
-                    </div>
 
-                    {/* Card 2 Test */}
-
-                    {/* Card 2 Test */}
-
-                    {/* Card 2
-                    <div className="flex justify-center border">
-                        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                            <a href="#">
-                                <img className="rounded-t-lg" src="/docs/images/blog/image-2.jpg" alt="" />
-                            </a>
-                            <div className="p-5">
-                                <a href="#">
-                                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Latest trends in web development</h5>
-                                </a>
-                                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Explore the cutting-edge technologies and frameworks dominating the web development landscape.</p>
-                                <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                    Read more
-                                    <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Card 3 */}
-                    {/* <div className="flex justify-center border">
-                        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                            <a href="#">
-                                <img className="rounded-t-lg" src="/docs/images/blog/image-3.jpg" alt="" />
-                            </a>
-                            <div className="p-5">
-                                <a href="#">
-                                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">10 tips for better code organization</h5>
-                                </a>
-                                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Learn how to structure your codebase for improved readability, maintainability, and collaboration.</p>
-                                <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                    Read more
-                                    <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div> */}
-
-                    <div className="flex flex-wrap justify-center">
-                        {/* Card 1 */}
-                        {/* <div className="flex justify-center border">
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="#">
-                                    <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
-                                </a>
-                                <div className="p-5">
-                                    <a href="#">
-                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                                    </a>
-                                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                        Read more
-                                        <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div> */}
-
-                        {/* Card 2 */}
-                        {/* <div className="flex justify-center border">
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="#">
-                                    <img className="rounded-t-lg" src="/docs/images/blog/image-2.jpg" alt="" />
-                                </a>
-                                <div className="p-5">
-                                    <a href="#">
-                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Latest trends in web development</h5>
-                                    </a>
-                                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Explore the cutting-edge technologies and frameworks dominating the web development landscape.</p>
-                                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                        Read more
-                                        <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div> */}
-
-                        {/* Card 3 */}
-                        {/* <div className="flex justify-center border">
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="#">
-                                    <img className="rounded-t-lg" src="/docs/images/blog/image-3.jpg" alt="" />
-                                </a>
-                                <div className="p-5">
-                                    <a href="#">
-                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">10 tips for better code organization</h5>
-                                    </a>
-                                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Learn how to structure your codebase for improved readability, maintainability, and collaboration.</p>
-                                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                        Read more
-                                        <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div> */}
-
-                        {/* Add more cards here */}
-                    </div>
+                    <Cards
+                        number='001'
+                        title='Example Test'
+                        description='Here are the biggest enterprises in the United States of America Here are the biggest enterprises in the United States of America'
+                        lang1="#Typescript"
+                        lang2="#HTML/CSS"
+                        lang3="#TailwindCSS"
+                        link='https://github.com/Deuos/Library-Management-System'
+                    />
+                    <Cards
+                        number='001'
+                        title='Example Test'
+                        description='Here are the biggest enterprises in the United States of America Here are the biggest enterprises in the United States of America'
+                        lang1="#Typescript"
+                        lang2="#HTML/CSS"
+                        lang3="#TailwindCSS"
+                        link='https://github.com/Deuos/Library-Management-System'
+                    />
                 </div>
+                <div className="flex flex-wrap p-4 space-x-6 justify-center">
+                    <Cards
+                        number='001'
+                        title='Example Test'
+                        description='Here are the biggest enterprises in the United States of America Here are the biggest enterprises in the United States of America'
+                        lang1="#Typescript"
+                        lang2="#HTML/CSS"
+                        lang3="#TailwindCSS"
+                        link='https://github.com/Deuos/Library-Management-System'
+                    />
+                    <Cards
+                        number='001'
+                        title='Example Test'
+                        description='Here are the biggest enterprises in the United States of America Here are the biggest enterprises in the United States of America'
+                        lang1="#Typescript"
+                        lang2="#HTML/CSS"
+                        lang3="#TailwindCSS"
+                        link='https://github.com/Deuos/Library-Management-System'
+                    />
+                </div>
+            </div>
+            <div className="fixed border z-0 flex items-end h-screensize2 rotate-90 bg-backgroundTitle text-white text-10xl font-black opacity-70">
+                Projects
             </div>
         </div>
     )
