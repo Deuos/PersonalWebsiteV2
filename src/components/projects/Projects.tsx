@@ -73,7 +73,7 @@ const Projects = () => {
                     />
                 </div>
             </div>
-            <div className="fixed border z-0 flex items-end h-screensize2 rotate-90 bg-backgroundTitle text-white text-10xl font-black opacity-70">
+            <div className="fixed z-0 rotate-90 mx-auto -left-[23rem] bottom-[17.25rem] text-white text-10xl font-black opacity-7">
                 Projects
             </div>
         </div>
