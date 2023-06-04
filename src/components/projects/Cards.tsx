@@ -18,8 +18,8 @@ function Cards({ number, title, description, lang1, lang2, lang3, link }: CardPr
                 <div className='relative w-projectCardWidthInside  h-projectCardHeightInside bg-Dark rounded-projectCardRadius'>
 
                     <div className='text-white inline-flex ml-5 mt-4 font-bold text-2xl'>{title}</div>
-                    <div className='text-white ml-5 mr-8 mt-6 inline-flex font-medium text-lg'>{description}</div>
-                    <div className='absolute inline-flex w-80  mr-5 justify-between bottom-28 left-5 text-white'>
+                    <div className='text-white ml-5 mr-8 mt-6 inline-flex font-medium text-md'>{description}</div>
+                    <div className='absolute inline-flex w-80 mr-5 justify-between bottom-24 left-5 text-white'>
                         <div className=''>
                             {lang1}
                         </div>

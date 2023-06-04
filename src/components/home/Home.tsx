@@ -84,6 +84,7 @@ const Home = () => {
                 <p className="text-white font-light text-xs align-top text-opacity-20 ml-14">&lt;body class="Welcome Page"&gt;</p>
                 <p className="text-white font-light text-xs align-top text-opacity-20 ml-5">&lt;html mode="Dark"&gt;</p>
             </div>
+
         </div >
     );
 };
