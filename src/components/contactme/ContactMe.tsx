@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { BsGithub } from 'react-icons/bs'
 import { IoLogoLinkedin } from 'react-icons/io'
 import { HiDocumentText } from 'react-icons/hi'
+import Resume from '../../Resume/Resume.pdf';
+
 const ContactMe = () => {
     return (
         <div className="flex flex-col my-3 h-screensize">
@@ -54,6 +56,13 @@ const ContactMe = () => {
                             <button className="flex bg-transparent text-black mr-10 w-contactButtonWidth h-contactButtonHeight items-center justify-center py-2 px-4 bg-white rounded-customButton">
                                 <div className=' font-black text-xl hover:text-white mr-2'>Resume</div>
                                 <div ><HiDocumentText size={30} /></div>
+                            </button>
+                            <button>
+                                <div>
+                                    <a href={Resume} download="Resume">
+                                        Download Resume
+                                    </a>
+                                </div>
                             </button>
 
                             {/* <div className='w-contactButton animate-text h-contactButtonHeight bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500'>
