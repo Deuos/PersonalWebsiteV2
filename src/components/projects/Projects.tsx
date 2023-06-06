@@ -3,6 +3,7 @@ import NavBar from '../sidebar/Sidebar';
 import { Link } from 'react-router-dom';
 import Cards from './Cards';
 import { FiGithub } from 'react-icons/fi'
+import { BsGithub } from 'react-icons/bs'
 
 const Projects = () => {
     return (
@@ -14,7 +15,7 @@ const Projects = () => {
                 {/* Navbar */}
                 <p className='text-white font-light text-xs align-top text-opacity-20 ml-28'>&nbsp;</p>
                 <div className='flex justify-center'>
-                    <div className="flex w-navbarWidth items-center justify-between">
+                    <div className="flex w-navbarWidth items-center justify-between max-lg:w-navbarWidthTablet">
                         <Link to="/">
                             <p className="text-4.5xl font-black animate-text">
                                 <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">Projects</span>
@@ -28,14 +29,15 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='flex flex-col text-white items-center'>
-                    <button className='border mt-10 mb-14 w-fit rounded-xl p-2 hover:bg-gray-400'>
-                        <Link className='flex items-center' target='_blank' to="https://github.com/Deuos">
-                            <span className='mr-1'>Github</span> <FiGithub />
-                        </Link>
-                    </button>
+                    <button className="flex bg-transparent mt-4 mb-4 text-black mr-10 w-contactButtonWidth h-contactButtonHeight items-center justify-center py-2 px-4 bg-white rounded-customButton hover:border hover:bg-gray-600">
+                                <Link className="flex items-center justify-center" target="_blank" rel="noopener noreferrer" to="https://github.com/Deuos">
+                                    <div className='font-black text-xl mr-2'>Github</div>
+                                    <div ><BsGithub size={30} /></div>
+                                </Link>
+                            </button>
 
                 </div>
-                <div className="flex flex-wrap p-4 space-x-6 justify-center">
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0">
                     <Cards
                         number='006'
                         title='Personal Website v2'
@@ -55,7 +57,7 @@ const Projects = () => {
                         link='https://github.com/Deuos/Credit-Card-Statement-PDF-To-Excel'
                     />
                 </div>
-                <div className="flex flex-wrap p-4 space-x-6 justify-center">
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0">
                     {/* Card 1 */}
 
                     <Cards
@@ -77,7 +79,7 @@ const Projects = () => {
                         link='https://github.com/Deuos/Library-Management-System'
                     />
                 </div>
-                <div className="flex flex-wrap p-4 space-x-6 justify-center">
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0">
                     <Cards
                         number='002'
                         title=' LC-3-Sim-Calc'

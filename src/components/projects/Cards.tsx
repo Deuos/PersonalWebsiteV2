@@ -20,17 +20,17 @@ function Cards({ number, title, description, lang1, lang2, lang3, link }: CardPr
                     <div className='text-white inline-flex ml-5 mt-4 font-bold text-2xl'>{title}</div>
                     <div className='text-white ml-5 mr-8 mt-6 inline-flex font-medium text-md text-opacity-60'>{description}</div>
 
-                    <button className='absolute bottom-16 left-5 w-44 h-10 justify-center rounded-projectCardRadiusInside text-black text-base hover:bg-gray-400 border-ButtonBorder border-2 bg-ButtonWhite'>
+                    <button className='absolute bottom-16 left-5 w-44 h-10 justify-center rounded-projectCardRadiusInside text-black text-base hover:bg-gray-700 border-ButtonBorder border-2 bg-ButtonWhite'>
                         <Link to={link} target='_blank' >View Source Code </Link>
                     </button>
                     <div className='absolute inline-flex w-80 mr-5 justify-between bottom-5 left-5  text-white'>
-                        <div className='border'>
+                        <div className=''>
                             {lang1}
                         </div>
-                        <div className='border'>
+                        <div className=''>
                             {lang2}
                         </div>
-                        <div className='border'>
+                        <div className=''>
                             {lang3}
                         </div>
                     </div>

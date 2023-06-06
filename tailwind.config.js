@@ -35,7 +35,9 @@ module.exports = {
       },
       width: {
         'title': "56.25rem",
+        'titleTablet': '37.5rem',
         'navbarWidth': '75rem',
+        'navbarWidthTablet': '43.75rem',
         'contactButton': '40.625rem',
         'contactButtonWidth': '10.938rem',
         '85': '5.313rem',

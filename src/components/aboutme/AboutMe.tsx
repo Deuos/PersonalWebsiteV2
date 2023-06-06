@@ -12,7 +12,7 @@ const AboutMe = () => {
                 {/* Navbar */}
                 <p className='text-white font-light text-xs align-top text-opacity-20 ml-28'>&nbsp;</p>
                 <div className='flex justify-center'>
-                    <div className="flex w-navbarWidth items-center justify-between">
+                    <div className="flex w-navbarWidth items-center justify-between max-lg:w-navbarWidthTablet">
                         <Link to="/">
                             <p className="text-4.5xl font-black animate-text">
                                 <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">About Me</span>
@@ -25,29 +25,29 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div className='flex text-white justify-center'>
-                    <div className='w-navbarWidth'>
-                        <p className='flex mt-10 font-bold text-3xl'>
+                    <div className='w-navbarWidth max-lg:w-navbarWidthTablet'>
+                        <p className='flex mt-10 font-bold text-3xl max-lg:text-2xl'>
                             Work Experience.
                         </p>
-                        <p className='flex mt-10 font text-2xl'>
+                        <p className='flex mt-10 font text-xl'>
                             None, looking for a internship. Contact me at&nbsp;
                             <div className="hover:animate-swing">
                                 <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
                                 </a>
                             </div>
                         </p>
-                        <p className='flex mt-10 font-bold text-3xl'>
+                        <p className='flex mt-10 font-bold text-3xl max-lg:text-2xl'>
                             Education.
                         </p>
-                        <div className='mt-10 flex justify-between font text-2xl'>
+                        <div className='mt-10 flex justify-between font text-2xl max-lg:text-xl'>
                             <p>Eastern Connecticut State University</p>
                             <p>2022-2024</p>
                         </div>
-                        <div className='mt-10 flex justify-between font text-2xl'>
+                        <div className='mt-10 flex justify-between font text-2xl max-lg:text-xl'>
                             <p>Wentworth Institute of Technology</p>
                             <p>2021-2022</p>
                         </div>
-                        <div className='mt-10 flex justify-between font text-2xl'>
+                        <div className='mt-10 flex justify-between font text-2xl max-lg:text-xl'>
                             <p>Ellington High School</p>
                             <p>2017-2021</p>
                         </div>
