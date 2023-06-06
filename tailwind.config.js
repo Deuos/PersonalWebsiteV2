@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'mobile': '624px'
+      },
       colors: {
         'background-black': '#01060B',
         'text-whitecream': '#F3F7F0',
@@ -36,6 +39,7 @@ module.exports = {
       width: {
         'title': "56.25rem",
         'titleTablet': '37.5rem',
+        'titleMobile': '21.875rem',
         'navbarWidth': '75rem',
         'navbarWidthTablet': '43.75rem',
         'contactButton': '40.625rem',

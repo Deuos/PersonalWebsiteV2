@@ -13,7 +13,7 @@ const Projects = () => {
                 <p className="text-white font-light text-xs align-top text-opacity-20 ml-14">&nbsp;</p>
 
                 {/* Navbar */}
-                <p className='text-white font-light text-xs align-top text-opacity-20 ml-28'>&nbsp;</p>
+                <p className='z-20 text-white font-light text-xs align-top text-opacity-20 ml-28'>&nbsp;</p>
                 <div className='flex justify-center'>
                     <div className="flex w-navbarWidth items-center justify-between max-lg:w-navbarWidthTablet">
                         <Link to="/">
@@ -30,11 +30,11 @@ const Projects = () => {
                 </div>
                 <div className='flex flex-col text-white items-center'>
                     <button className="flex bg-transparent mt-4 mb-4 text-black mr-10 w-contactButtonWidth h-contactButtonHeight items-center justify-center py-2 px-4 bg-white rounded-customButton hover:border hover:bg-gray-600">
-                                <Link className="flex items-center justify-center" target="_blank" rel="noopener noreferrer" to="https://github.com/Deuos">
-                                    <div className='font-black text-xl mr-2'>Github</div>
-                                    <div ><BsGithub size={30} /></div>
-                                </Link>
-                            </button>
+                        <Link className="flex items-center justify-center" target="_blank" rel="noopener noreferrer" to="https://github.com/Deuos">
+                            <div className='font-black text-xl mr-2'>Github</div>
+                            <div ><BsGithub size={30} /></div>
+                        </Link>
+                    </button>
 
                 </div>
                 <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0">
@@ -100,7 +100,7 @@ const Projects = () => {
                     />
                 </div>
             </div>
-            <div className="fixed z-0 rotate-90 mx-auto -left-[23rem] bottom-[17.25rem] text-white text-10xl font-black opacity-7">
+            <div className="fixed z-0 select-none rotate-90 mx-auto -left-[23rem] bottom-[17.25rem] text-white text-10xl font-black opacity-7">
                 Projects
             </div>
         </div>
