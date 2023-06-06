@@ -54,11 +54,11 @@ const Home = () => {
                         <p>I like building Websites and Solving Problems.</p>
                         <br></br>
                         <p>View my&nbsp;
-                            <Link to="/">Projects</Link>
+                            <Link className="relative before:absolute before:bg-gray-400 before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.25] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500" to="/Projects"><span className="relative">Projects</span></Link>
                             ,&nbsp;
-                            <Link to="/">Resume</Link>
+                            <Link className="relative before:absolute before:bg-gray-400 before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.25] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500" to="/"><span className="relative">Resume</span></Link>
                             ,&nbsp;
-                            <Link to="/">Contact Me</Link>
+                            <Link className="relative before:absolute before:bg-gray-400 before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.25] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500" to="/ContactMe"><span className="relative">Contact Me</span></Link>
                             ,&nbsp;or send me an email at
                             <p className="w-fit hover:animate-swing">
                                 <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
@@ -72,7 +72,7 @@ const Home = () => {
                 <div className='flex flex-col items-center mt-20'>
                     <br></br>
                     <div className="w-title">
-                        <Link to="/AboutMe">
+                        <Link to="/AboutMe" className=' inline-block'>
                             <div className='w-fit text-2xl font-semibold'>
                                 <div className="relative after:absolute after:bg-gray-200 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">See more about me</div>
                             </div>
@@ -84,7 +84,9 @@ const Home = () => {
                 <p className="text-white font-light text-xs align-top text-opacity-20 ml-14">&lt;body class="Welcome Page"&gt;</p>
                 <p className="text-white font-light text-xs align-top text-opacity-20 ml-5">&lt;html mode="Dark"&gt;</p>
             </div>
-
+            <div className="fixed z-0 border -rotate-90 mx-auto right-[-12rem] top-[20rem] text-white text-10xl font-black opacity-7">
+                Patel
+            </div>
         </div >
     );
 };
