@@ -47,8 +47,8 @@ const Projects = () => {
                     />
                     <Cards
                         number='005'
-                        title='CreditCard Pdf - Excel'
-                        description='Converts Elan Credit Card Statements to Excel using the Node.js environment along with pdfreader and xlsx libraries. The pdfreader reads the whole statement and then compresses it down to find the date, balance, and transactions which are added to an Excel sheet.'
+                        title='Statement to Excel'
+                        description='Converts Elan Credit Card Statements to Excel using the Node.js environment along with pdfreader and xlsx libraries. The pdfreader reads the whole statement and then compresses it down to find the date, balance, and transactions that are added to Excel.'
                         lang1="#JavaScript"
                         lang2="#Nodejs"
                         lang3=""

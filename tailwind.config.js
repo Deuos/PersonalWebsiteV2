@@ -14,7 +14,9 @@ module.exports = {
         'Light-accent': '#48484B',
         'Main': '#799BA4',
         'Dark': '#181818',
-        'Dark-accent': '#01060B'
+        'Dark-accent': '#01060B',
+        'ButtonWhite': '#F3F7F0',
+        'ButtonBorder': '#799BA4',
       },
       borderRadius: {
         'customButton': '1rem',
