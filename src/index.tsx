@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Router basename="/PersonalWebsiteV2">
+    <Router>
       <App />
     </Router>
   </React.StrictMode>
