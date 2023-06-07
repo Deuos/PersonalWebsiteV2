@@ -45,7 +45,7 @@ const Projects = () => {
                         lang1="#TypeScript"
                         lang2="#TailwindCSS"
                         lang3="#ReactJs"
-                        link='https://github.com/Deuos/Credit-Card-Statement-PDF-To-Excel'
+                        link='https://github.com/Deuos/PersonalWebsiteV2'
                     />
                     <Cards
                         number='005'
@@ -67,7 +67,7 @@ const Projects = () => {
                         lang1="#HTML/CSS"
                         lang2=""
                         lang3=""
-                        link='https://github.com/Deuos/Deuos'
+                        link='https://deuos.github.io/PersonalWebsiteV1/'
                     />
                     <Cards
                         number='003'
@@ -87,7 +87,7 @@ const Projects = () => {
                         lang1="#Assembly"
                         lang2="#LC-3 Simulator"
                         lang3=""
-                        link='https://github.com/Deuos/Library-Management-System'
+                        link='https://github.com/Deuos/LC-3-Sim-Calc'
                     />
                     <Cards
                         number='001'
