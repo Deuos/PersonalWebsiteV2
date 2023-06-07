@@ -28,7 +28,7 @@ const ContactMe = () => {
                 </div>
                 <div className='flex text-white justify-center'>
                     <div className='w-navbarWidth max-lg:w-navbarWidthTablet max-mobile:w-navbarWidthMobile'>
-                        <p className='flex mt-10 font-bold text-3xl max-lg:text-2xl max-mobile:text-xl'>
+                        <p className='flex mt-10 font-bold text-3xl max-lg:text-2xl max-mobile:text-xl '>
                             Email me at&nbsp;
                             <div className="hover:animate-swing">
                                 <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
@@ -38,7 +38,7 @@ const ContactMe = () => {
                         <p className='mt-10 font-bold text-3xl max-lg:text-2xl'>
                             or
                         </p>
-                        <div className='flex w-contactButton mt-10 justify-start max-mobile:flex-col max-mobile:inline-flex'>
+                        <div className='flex w-contactButton mt-10 justify-start max-mobile:flex-col max-mobile:inline-flex max-mobile:w-60'>
 
                             <button className="flex bg-transparent text-black mr-10 w-contactButtonWidth h-contactButtonHeight items-center justify-center py-2 px-4 bg-white rounded-customButton hover:border hover:bg-gray-400">
                                 <Link className="flex items-center justify-center" target="_blank" rel="noopener noreferrer" to="https://github.com/Deuos">
