@@ -49,17 +49,17 @@ const NavBar = () => {
                 </svg>
               </div>
               <ul className="MENU-LINK-MOBILE-OPEN text-white flex flex-col items-center justify-between min-h-[250px]">
-                <li className="border-b border-gray-400 my-8 uppercase">
+                <li className="border-b border-gray-400 my-8 uppercase font-semibold">
                   <Link to="/AboutMe">
                     About Me
                   </Link>
                 </li>
-                <li className="border-b border-gray-400 my-8 uppercase">
+                <li className="border-b border-gray-400 my-8 uppercase font-semibold">
                   <Link to="/Projects">
                     Projects
                   </Link>
                 </li>
-                <li className="border-b border-gray-400 my-8 uppercase">
+                <li className="border-b border-gray-400 my-8 uppercase font-semibold">
                   <Link to="/ContactMe">
                     Contact Me
                   </Link>

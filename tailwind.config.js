@@ -20,6 +20,7 @@ module.exports = {
         'Dark-accent': '#01060B',
         'ButtonWhite': '#F3F7F0',
         'ButtonBorder': '#799BA4',
+        'ButtonHover': '#0a0a23'
       },
       borderRadius: {
         'customButton': '1rem',
@@ -42,7 +43,7 @@ module.exports = {
         'titleMobile': '21.875rem',
         'navbarWidth': '75rem',
         'navbarWidthTablet': '43.75rem',
-        'navbarWidthMobile':'25.875rem',
+        'navbarWidthMobile': '25.875rem',
         'contactButton': '40.625rem',
         'contactButtonWidth': '10.938rem',
         '85': '5.313rem',

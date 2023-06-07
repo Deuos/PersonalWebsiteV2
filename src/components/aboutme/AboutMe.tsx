@@ -54,7 +54,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-            <div className="fixed z-0 select-none leading-tight bottom-0 left-0 font-black opacity-7 text-10xl h-backgroundTitle text-white">
+            <div className="fixed pointer-events-none z-0 select-none leading-tight bottom-0 left-0 font-black opacity-7 text-10xl h-backgroundTitle text-white">
                 About Me
             </div>
         </div>
