@@ -15,7 +15,7 @@ const Projects = () => {
                 {/* Navbar */}
                 <p className='z-20 text-white font-light text-xs align-top text-opacity-20 ml-28'>&nbsp;</p>
                 <div className='flex justify-center'>
-                    <div className="flex w-navbarWidth items-center justify-between max-lg:w-navbarWidthTablet">
+                    <div className="flex w-navbarWidth items-center justify-between max-lg:w-navbarWidthTablet max-mobile:w-navbarWidthMobile">
                         <Link to="/">
                             <p className="text-4.5xl font-black animate-text">
                                 <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">Projects</span>
@@ -37,7 +37,7 @@ const Projects = () => {
                     </button>
 
                 </div>
-                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0">
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
                         number='006'
                         title='Personal Website v2'
@@ -57,7 +57,7 @@ const Projects = () => {
                         link='https://github.com/Deuos/Credit-Card-Statement-PDF-To-Excel'
                     />
                 </div>
-                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0">
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     {/* Card 1 */}
 
                     <Cards
@@ -79,7 +79,7 @@ const Projects = () => {
                         link='https://github.com/Deuos/Library-Management-System'
                     />
                 </div>
-                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0">
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
                         number='002'
                         title=' LC-3-Sim-Calc'

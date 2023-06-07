@@ -18,16 +18,16 @@ const NavBar = () => {
       </div>
 
       {/* Mobile */}
-      <div className="flex items-center justify-between border border-gray-400 py-8 mobile:hidden">
+      <div className="flex items-center justify-between border-gray-400 mobile:hidden">
         <nav>
-          <section className="MOBILE-MENU border flex lg:hidden">
+          <section className="MOBILE-MENU flex lg:hidden">
             <div
               className="HAMBURGER-ICON space-y-2"
               onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
             >
-              <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-              <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-              <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+              <div className="block h-0.5 w-8 animate-pulse bg-gray-600"></div>
+              <div className="block h-0.5 w-8 animate-pulse bg-gray-600"></div>
+              <div className="block h-0.5 w-8 animate-pulse bg-gray-600"></div>
             </div>
 
             <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -48,15 +48,21 @@ const NavBar = () => {
                   <line x1="6" y1="6" x2="18" y2="18" />
                 </svg>
               </div>
-              <ul className="MENU-LINK-MOBILE-OPEN text-black flex flex-col items-center justify-between min-h-[250px]">
+              <ul className="MENU-LINK-MOBILE-OPEN text-white flex flex-col items-center justify-between min-h-[250px]">
                 <li className="border-b border-gray-400 my-8 uppercase">
-                  <a href="/AboutMe">About</a>
+                  <Link to="/AboutMe">
+                    About Me
+                  </Link>
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">
-                  <a href="/Projects">Projects</a>
+                  <Link to="/Projects">
+                    Projects
+                  </Link>
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">
-                  <a href="/ContactMe">Contact Me</a>
+                  <Link to="/ContactMe">
+                    Contact Me
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -68,13 +74,13 @@ const NavBar = () => {
       }
       .showMenuNav {
         display: block;
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 100vh;
         top: 0;
         left: 0;
-        background: white;
-        z-index: 10;
+        background: black;
+        z-index: 20;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;

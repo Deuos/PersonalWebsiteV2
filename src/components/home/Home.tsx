@@ -15,7 +15,7 @@ const Home = () => {
                 {/* Navbar */}
                 <p className='text-white font-light text-xs align-top text-opacity-20 ml-28 visible max-lg:invisible'>&lt;navbar&gt;</p>
                 <div className='flex justify-center'>
-                    <div className="flex w-navbarWidth items-center justify-between max-lg:w-navbarWidthTablet">
+                    <div className="flex w-navbarWidth items-center justify-between max-lg:w-navbarWidthTablet max-mobile:w-navbarWidthMobile">
                         <Link to="/">
                             <p className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text">
                                 <span className="text-4.5xl font-black text-transparent">KP</span>
@@ -32,7 +32,7 @@ const Home = () => {
                 {/* Animation */}
                 <p className='text-white font-light text-xs align-top text-opacity-20 ml-56 visible max-lg:invisible'>&lt;h1&gt;</p>
                 <div className="flex flex-col items-center mt-20">
-                    <div className="font-bold text-4xl my-0 text-white w-title max-lg:w-titleTablet max-lg:text-2xl max-mobile:w-titleMobile">
+                    <div className="font-bold text-4xl my-0 text-white w-title max-lg:w-titleTablet max-lg:text-2xl max-mobile:w-titleMobile max-mobile:h-20">
                         <TypeAnimation
                             sequence={[
                                 'Hi, my name is Kush, and I am a broke',
@@ -86,7 +86,7 @@ const Home = () => {
                 <p className="text-white font-light text-xs align-top text-opacity-20 ml-14 visible max-lg:invisible">&lt;body class="Welcome Page"&gt;</p>
                 <p className="text-white font-light text-xs align-top text-opacity-20 ml-5 visible max-lg:invisible">&lt;html mode="Dark"&gt;</p>
             </div>
-            <div className="fixed z-0 -rotate-90 mx-auto right-[-12rem] bottom-[7rem] text-white text-10xl font-black opacity-7">
+            <div className="fixed z-0 select-none -rotate-90 mx-auto right-[-12rem] bottom-[7rem] text-white text-10xl font-black opacity-7">
                 Patel
             </div>
         </div >

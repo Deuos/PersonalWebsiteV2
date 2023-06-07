@@ -42,6 +42,7 @@ module.exports = {
         'titleMobile': '21.875rem',
         'navbarWidth': '75rem',
         'navbarWidthTablet': '43.75rem',
+        'navbarWidthMobile':'25.875rem',
         'contactButton': '40.625rem',
         'contactButtonWidth': '10.938rem',
         '85': '5.313rem',
