@@ -29,12 +29,17 @@ const AboutMe = () => {
                         <p className='flex mt-10 font-bold text-3xl max-lg:text-2xl'>
                             Work Experience.
                         </p>
-                        <p className='flex mt-10 font text-xl'>
-                            None, looking for a internship. Contact me at&nbsp;
+                        <p className='flex mt-10 font text-xl max-mobile:hidden'>
+                            Looking for a internship. Contact me at&nbsp;
                             <div className="hover:animate-swing">
                                 <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
                                 </a>
                             </div>
+                        </p>
+                        <p className='flex-nowrap mt-10 font text-xl mobile:hidden'>
+                            Looking for a internship. Cont2act me at&nbsp;
+                            <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
+                            </a>
                         </p>
                         <p className='flex mt-10 font-bold text-3xl max-lg:text-2xl'>
                             Education.
