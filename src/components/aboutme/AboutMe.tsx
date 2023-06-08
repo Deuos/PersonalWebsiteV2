@@ -37,7 +37,7 @@ const AboutMe = () => {
                             </div>
                         </p>
                         <p className='flex-nowrap mt-10 font text-xl mobile:hidden'>
-                            Looking for a internship. Cont2act me at&nbsp;
+                            Looking for a internship. Contact me at&nbsp;
                             <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
                             </a>
                         </p>
