@@ -39,6 +39,26 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
+                        number='008'
+                        title='Vosk Websocket'
+                        description='Developed a Docker image for Vosk, a speech-to-textframework, by utilizing the pretrained model. Created a WebSocket utilizing Nodejs to create aconnection that efficiently transcribes audio and returns the corresponding transcriptions, showcasing the capabilities of Vosk in real-time.'
+                        lang1="#JavaScript"
+                        lang2="#Websocket"
+                        lang3="#Docker"
+                        link='https://github.com/Deuos/VoskWebsocket'
+                    />
+                    <Cards
+                        number='007'
+                        title='Online LMS'
+                        description='This online book checkout/returning system, built with Node.js, provides extensive capabilities for users and administrators, enabling actions such as browsing, adding, and deleting books. The system boasts a user-friendly graphical interface enhanced with Bootstrap and CSS, while ensuring efficient data management through MongoDB.'
+                        lang1="#JavaScript"
+                        lang2="#Nodejs"
+                        lang3="#Ejs"
+                        link='https://github.com/Deuos/OnlineLibraryManagementSystem'
+                    />
+                </div>
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
+                    <Cards
                         number='006'
                         title='Personal Website v2'
                         description='Kushapatel.dev, is a personal website, which I created to host my personal projects along with other items. The newly built version website utilizes Reactjs along with TailwindCSS to make gui.'
