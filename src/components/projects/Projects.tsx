@@ -50,7 +50,7 @@ const Projects = () => {
                     <Cards
                         number='007'
                         title='Online LMS'
-                        description='This online book checkout/returning system, built with Node.js, provides extensive capabilities for users and administrators, enabling actions such as browsing, adding, and deleting books. The system boasts a user-friendly graphical interface enhanced with Bootstrap and CSS, while ensuring efficient data management through MongoDB.'
+                        description='This online book checkout/returning system, built with Node.js, provides capabilities for users and administrators, enabling actions such as browsing, adding, and deleting books. The system boasts a user-friendly gui enhanced with Bootstrap and CSS, while ensuring data management through MongoDB.'
                         lang1="#JavaScript"
                         lang2="#Nodejs"
                         lang3="#Ejs"
