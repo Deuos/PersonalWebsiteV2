@@ -8,10 +8,7 @@ import ReactGA from "react-ga4";
 
 ReactGA.initialize("G-11KBKYSRS2");
 
-ReactGA.send({
-  hitType: "pageview",
-  page: window.location.pathname,
-});
+ReactGA.send("pageview");
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
