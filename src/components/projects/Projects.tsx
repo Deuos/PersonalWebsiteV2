@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Cards from './Cards';
 import { FiGithub } from 'react-icons/fi'
 import { BsGithub } from 'react-icons/bs'
+import CardsFeatures from './CardsFeature';
 
 const Projects = () => {
     return (
@@ -37,17 +38,47 @@ const Projects = () => {
                     </button>
 
                 </div>
-                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
-                    <Cards
-                        number='009'
+                <div className='flex flex-col items-center p-4 justify-center max-lg:space-x-0 max-lg:p-0'>
+                    <div className='w-[768px] mt-[20px] mb-[30px] max-lg:w-[368px] font-bold text-3xl max-lg:text-2xl'>Feature Project.</div>
+                    <CardsFeatures
+                        number='000'
                         title='Ecocix.com'
-                        description='Aimed towards solving the problem of an effective English learning program. Where the pace is what you set and not guided by a point system. I implemented two modes Listen and Write, listen to the audio, and write what you hear. Along with the Read and Speak mode, where you speak the text and receive feedback.'
+                        description='A free online platform for improving English skills.'
                         lang1="#Typescript"
                         lang2="#Reactjs"
                         lang3="#Nodejs"
                         link='https://ecocix.com/'
-                        button='View Website'
+                        link2='https://blog.ecocix.com/what-is-ecocix/'
+                        link3='https://www.easternct.edu/news/_stories-and-releases/2023/12-december/eastern-students-pitch-entrepreneurial-proposals-in-inaugural-competition.html'
+                        button='Website'
+                        button2='What?'
+                        button3='Funding?'
+                    ></CardsFeatures>
+                    <div className='w-[768px] mt-5 max-lg:w-[368px] font-bold text-3xl max-lg:text-2xl'>Projects.</div>
+                </div>
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
+                    <Cards
+                        number='010'
+                        title='Indeed Job Listings'
+                        description='Entry-Level Computer Science Job Postings in New York, Massachusetts, and Connecticut: A study on Job Requirements and Salary Trends. View Pdf for more information on data collection techniques, execution, and results'
+                        lang1="#R"
+                        lang2="#Python"
+                        lang3="#NLTK"
+                        link='https://github.com/Deuos/Indeed-Job-Listings-Senior-Research'
+                        button='View Source Code'
                     />
+                    <Cards
+                        number='009'
+                        title='Indeed Job Listings'
+                        description='Exploring Grade Gene Expression (G1 vs G3) Analysis in GDC TCGA Cervical Cancer (CESC) Using RNA-Seq Data. View Pdf/R File for additional detail on the process and results.'
+                        lang1="#R"
+                        lang2="#ggplot2"
+                        lang3="#edgeR"
+                        link='https://github.com/Deuos/Cervical-Cancer-G1-vs-G3-Analysis'
+                        button='View Source Code'
+                    />
+                </div>
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
                         number='008'
                         title='Vosk Websocket'
@@ -58,8 +89,6 @@ const Projects = () => {
                         link='https://github.com/Deuos/VoskWebsocket'
                         button='View Source Code'
                     />
-                </div>
-                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
                         number='007'
                         title='Online LMS'
@@ -70,6 +99,8 @@ const Projects = () => {
                         link='https://github.com/Deuos/OnlineLibraryManagementSystem'
                         button='View Source Code'
                     />
+                </div>
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
                         number='006'
                         title='Personal Website v2'
@@ -80,8 +111,6 @@ const Projects = () => {
                         link='https://github.com/Deuos/PersonalWebsiteV2'
                         button='View Source Code'
                     />
-                </div>
-                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
                         number='005'
                         title='Statement to Excel'
@@ -92,6 +121,10 @@ const Projects = () => {
                         link='https://github.com/Deuos/Credit-Card-Statement-PDF-To-Excel'
                         button='View Source Code'
                     />
+
+                </div>
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
+                    {/* Card 1 */}
                     <Cards
                         number='004'
                         title='Personal Website v1'
@@ -102,9 +135,6 @@ const Projects = () => {
                         link='https://deuos.github.io/PersonalWebsiteV1/'
                         button='View Website'
                     />
-                </div>
-                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
-                    {/* Card 1 */}
                     <Cards
                         number='003'
                         title='LMS'
@@ -115,6 +145,9 @@ const Projects = () => {
                         link='https://github.com/Deuos/Library-Management-System'
                         button='View Source Code'
                     />
+
+                </div>
+                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
                         number='002'
                         title=' LC-3-Sim-Calc'
@@ -125,8 +158,6 @@ const Projects = () => {
                         link='https://github.com/Deuos/LC-3-Sim-Calc'
                         button='View Source Code'
                     />
-                </div>
-                <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
                         number='001'
                         title='Space Shooters'
