@@ -69,7 +69,7 @@ const Projects = () => {
                     />
                     <Cards
                         number='009'
-                        title='Indeed Job Listings'
+                        title='Exploring Grade Gene Expression'
                         description='Exploring Grade Gene Expression (G1 vs G3) Analysis in GDC TCGA Cervical Cancer (CESC) Using RNA-Seq Data. View Pdf/R File for additional detail on the process and results.'
                         lang1="#R"
                         lang2="#ggplot2"
