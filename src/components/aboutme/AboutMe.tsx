@@ -29,18 +29,20 @@ const AboutMe = () => {
                         <p className='flex mt-10 font-bold text-3xl max-lg:text-2xl'>
                             Work Experience.
                         </p>
-                        <p className='flex mt-10 font text-xl max-mobile:hidden'>
-                            Looking for a internship. Contact me at&nbsp;
-                            <div className="hover:animate-swing">
-                                <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
-                                </a>
+                        <div className='mt-10 flex justify-between font text-2xl max-lg:text-xl max-mobile:text-lg'>
+                            <div>
+                                <p>COCC</p>
+                                <p className='text-xl max-lg:text-lg max-mobile:text-sm'>Software Development Intern - Conversions Unit</p>
                             </div>
-                        </p>
-                        <p className='flex-nowrap mt-10 font text-xl mobile:hidden'>
-                            Looking for a internship. Contact me at&nbsp;
-                            <a href='mailto:KuPatel2021@gmail.com'>KuPatel2021@gmail.com.
-                            </a>
-                        </p>
+                            <p>May 2024 - August 2024</p>
+                        </div>
+                        <div className='mt-10 flex justify-between font text-2xl max-lg:text-xl max-mobile:text-lg'>
+                            <div>
+                                <p>Connecticut Judicial Branch</p>
+                                <p className='text-xl max-lg:text-lg max-mobile:text-sm'>Software Development Intern - Application Development Unit</p>
+                            </div>
+                            <p>Jan 2024 - May 2024</p>
+                        </div>
                         <p className='flex mt-10 font-bold text-3xl max-lg:text-2xl'>
                             Education.
                         </p>

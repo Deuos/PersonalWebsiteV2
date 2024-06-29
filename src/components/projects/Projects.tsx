@@ -40,20 +40,35 @@ const Projects = () => {
                 </div>
                 <div className='flex flex-col items-center p-4 justify-center max-lg:space-x-0 max-lg:p-0'>
                     <div className='w-[768px] mt-[20px] mb-[30px] max-lg:w-[368px] font-bold text-3xl max-lg:text-2xl'>Feature Project.</div>
-                    <CardsFeatures
-                        number='000'
-                        title='Ecocix.com'
-                        description='A free online platform for improving English skills.'
-                        lang1="#Typescript"
-                        lang2="#Reactjs"
-                        lang3="#Nodejs"
-                        link='https://ecocix.com/'
-                        link2='https://blog.ecocix.com/what-is-ecocix/'
-                        link3='https://www.easternct.edu/news/_stories-and-releases/2023/12-december/eastern-students-pitch-entrepreneurial-proposals-in-inaugural-competition.html'
-                        button='Website'
-                        button2='What?'
-                        button3='Funding?'
-                    ></CardsFeatures>
+                    <div className='flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0'>
+                        <CardsFeatures
+                            number='000'
+                            title='Ecocix.com'
+                            description='A free online platform for improving English skills.'
+                            lang1="#Typescript"
+                            lang2="#Reactjs"
+                            lang3="#Nodejs"
+                            link='https://ecocix.com/'
+                            link2='https://blog.ecocix.com/what-is-ecocix/'
+                            link3='https://www.easternct.edu/news/_stories-and-releases/2023/12-december/eastern-students-pitch-entrepreneurial-proposals-in-inaugural-competition.html'
+                            button='Website'
+                            button2='What?'
+                            button3='Funding?'
+                        ></CardsFeatures>
+                        <CardsFeatures
+                            number='001'
+                            title='SwiftySaas.com'
+                            description=' A React.js + Node.js boilerplate with an already configured Authentication System, Payment Setup, Role-based Routing, and more.'
+                            lang1="#Typescript"
+                            lang2="#Reactjs"
+                            lang3="#Nodejs"
+                            link='https://swiftysaas.com/'
+                            link2='https://docs.swiftysaas.com/'
+                            button='Website'
+                            button2='Docs?'
+                        ></CardsFeatures>
+                    </div>
+
                     <div className='w-[768px] mt-5 max-lg:w-[368px] font-bold text-3xl max-lg:text-2xl'>Projects.</div>
                 </div>
                 <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
