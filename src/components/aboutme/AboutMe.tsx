@@ -1,4 +1,3 @@
-import React from 'react';
 import NavBar from '../sidebar/Sidebar';
 import { Link } from 'react-router-dom';
 
@@ -31,10 +30,17 @@ const AboutMe = () => {
                         </p>
                         <div className='mt-10 flex justify-between font text-2xl max-lg:text-xl max-mobile:text-lg'>
                             <div>
+                                <p>Connecticut Judicial Branch</p>
+                                <p className='text-xl max-lg:text-lg max-mobile:text-sm'>Software Development Intern - Application Development Unit</p>
+                            </div>
+                            <p>October 2024 - Present</p>
+                        </div>
+                        <div className='mt-10 flex justify-between font text-2xl max-lg:text-xl max-mobile:text-lg'>
+                            <div>
                                 <p>COCC</p>
                                 <p className='text-xl max-lg:text-lg max-mobile:text-sm'>Software Development Intern - Conversions Unit</p>
                             </div>
-                            <p>May 2024 - August 2024</p>
+                            <p>May 2024 - October 2024</p>
                         </div>
                         <div className='mt-10 flex justify-between font text-2xl max-lg:text-xl max-mobile:text-lg'>
                             <div>
@@ -54,7 +60,7 @@ const AboutMe = () => {
                             <p>Wentworth Institute of Technology</p>
                             <p>2021-2022</p>
                         </div>
-                        <div className='mt-10 flex justify-between font text-2xl max-lg:text-xl max-mobile:text-lg'>
+                        <div className='mt-10 mb-10 flex justify-between font text-2xl max-lg:text-xl max-mobile:text-lg'>
                             <p>Ellington High School</p>
                             <p>2017-2021</p>
                         </div>

@@ -1,8 +1,6 @@
-import React from 'react';
 import NavBar from '../sidebar/Sidebar';
 import { Link } from 'react-router-dom';
 import Cards from './Cards';
-import { FiGithub } from 'react-icons/fi'
 import { BsGithub } from 'react-icons/bs'
 import CardsFeatures from './CardsFeature';
 
@@ -43,13 +41,13 @@ const Projects = () => {
                     <div className='flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0'>
                         <CardsFeatures
                             number='000'
-                            title='Ecocix.com'
+                            title='FreeEnglishPractice'
                             description='A free online platform for improving English skills.'
                             lang1="#Typescript"
                             lang2="#Reactjs"
                             lang3="#Nodejs"
-                            link='https://ecocix.com/'
-                            link2='https://blog.ecocix.com/what-is-ecocix/'
+                            link='https://FreeEnglishPractice.com/'
+                            link2='https://blog.freeenglishpractice.com/what-is-ecocix/'
                             link3='https://www.easternct.edu/news/_stories-and-releases/2023/12-december/eastern-students-pitch-entrepreneurial-proposals-in-inaugural-competition.html'
                             button='Website'
                             button2='What?'
@@ -57,7 +55,19 @@ const Projects = () => {
                         ></CardsFeatures>
                         <CardsFeatures
                             number='001'
-                            title='SwiftySaas.com'
+                            title='WhaReach'
+                            description='Currently developing a platform that connects businesses with customers using the official WhatsApp Business API.'
+                            lang1="#Typescript"
+                            lang2="#Reactjs"
+                            lang3="#Nodejs"
+                            link='https://whareach.com/'
+                            button='Beta Website'
+                        ></CardsFeatures>
+                    </div>
+                    <div className='flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0'>
+                        <CardsFeatures
+                            number='002'
+                            title='SwiftySaas'
                             description=' A React.js + Node.js boilerplate with an already configured Authentication System, Payment Setup, Role-based Routing, and more.'
                             lang1="#Typescript"
                             lang2="#Reactjs"
@@ -73,7 +83,7 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
-                        number='010'
+                        number='003'
                         title='Indeed Job Listings'
                         description='Entry-Level Computer Science Job Postings in New York, Massachusetts, and Connecticut: A study on Job Requirements and Salary Trends. View Pdf for more information on data collection techniques, execution, and results'
                         lang1="#R"
@@ -83,7 +93,7 @@ const Projects = () => {
                         button='View Source Code'
                     />
                     <Cards
-                        number='009'
+                        number='004'
                         title='Exploring Grade Gene Expression'
                         description='Exploring Grade Gene Expression (G1 vs G3) Analysis in GDC TCGA Cervical Cancer (CESC) Using RNA-Seq Data. View Pdf/R File for additional detail on the process and results.'
                         lang1="#R"
@@ -95,7 +105,7 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
-                        number='008'
+                        number='005'
                         title='Vosk Websocket'
                         description='Developed a Docker image for Vosk, a speech-to-textframework, by utilizing the pretrained model. Created a WebSocket utilizing Nodejs to create aconnection that efficiently transcribes audio and returns the corresponding transcriptions, showcasing the capabilities of Vosk in real-time.'
                         lang1="#JavaScript"
@@ -105,7 +115,7 @@ const Projects = () => {
                         button='View Source Code'
                     />
                     <Cards
-                        number='007'
+                        number='006'
                         title='Online LMS'
                         description='This online book checkout/returning system, built with Node.js, provides capabilities for users and administrators, enabling actions such as browsing, adding, and deleting books. The system boasts a user-friendly gui enhanced with Bootstrap and CSS, while ensuring data management through MongoDB.'
                         lang1="#JavaScript"
@@ -117,7 +127,7 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
-                        number='006'
+                        number='007'
                         title='Personal Website v2'
                         description='Kushapatel.dev, is a personal website, which I created to host my personal projects along with other items. The newly built version website utilizes Reactjs along with TailwindCSS to make gui.'
                         lang1="#TypeScript"
@@ -127,7 +137,7 @@ const Projects = () => {
                         button='View Source Code'
                     />
                     <Cards
-                        number='005'
+                        number='008'
                         title='Statement to Excel'
                         description='Converts Elan Credit Card Statements to Excel using the Node.js environment along with pdfreader and xlsx libraries. The pdfreader reads the whole statement and then compresses it down to find the date, balance, and transactions that are added to Excel.'
                         lang1="#JavaScript"
@@ -141,7 +151,7 @@ const Projects = () => {
                 <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     {/* Card 1 */}
                     <Cards
-                        number='004'
+                        number='009'
                         title='Personal Website v1'
                         description='Kushapatel.dev, is a personal website, which I created to host my personal projects along with other items. I built this using Html and pure CSS; hosting was done on GitHub Pages along with a Lets Encrypt certificate.'
                         lang1="#HTML/CSS"
@@ -151,7 +161,7 @@ const Projects = () => {
                         button='View Website'
                     />
                     <Cards
-                        number='003'
+                        number='010'
                         title='LMS'
                         description='This is a library management system developed in a Node.js runtime environment for both users and admins. It facilitates browsing, adding, deleting, and updating books. Our GUI consists of Bootstrap and CSS, and our system utilizes Monogdb database utilizing CURB method.'
                         lang1="#JavaScript"
@@ -164,7 +174,7 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-wrap p-4 space-x-6 justify-center max-lg:space-x-0 max-lg:p-0">
                     <Cards
-                        number='002'
+                        number='011'
                         title=' LC-3-Sim-Calc'
                         description='This calculator takes in a 3-digit number and has the ability to add and subtract, and runs on an LC-3 Simulator (UPenn). This simulator takes in the keyboard input of the 2 variables and the operation and then displays the output onto the screen in a readable format.'
                         lang1="#Assembly"
@@ -174,7 +184,7 @@ const Projects = () => {
                         button='View Source Code'
                     />
                     <Cards
-                        number='001'
+                        number='012'
                         title='Space Shooters'
                         description='SpaceShooters is a game developed in the JavaFX framework using Object Oriented Programming. Some of the key features include the ability to generate infinite bullets from the ships location, randomized asteroid drops, along with other features.'
                         lang1="#Java"
